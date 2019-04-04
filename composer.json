@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": { "Chalky\\": "src/Chalky" }
+    },
+    "require": {
+        "php": ">=5.3.1",
+        "monolog/monolog": "1.0.*"
+    }
+}
