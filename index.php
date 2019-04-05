@@ -47,7 +47,7 @@ function getFiles($count = DEFAULT_COUNT, $sourceDir = '.'){
         $sourceDir,
         $logger,
         array(
-            'base_url' => BASE_URL . '/' . YEAR,
+            'base_url' => BASE_URL . YEAR . '/',
             'number' => $count,
         )
     );
